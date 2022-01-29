@@ -45,8 +45,8 @@ $("#image-selector").change(function () {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('https://github.com/briankiprotich/briankiprotich.github.io/model_tb_1/model.json');
-	$("#selected-image").attr("src", "https://github.com/briankiprotich/briankiprotich.github.io/assets/tb.jpg")
+	model = await tf.loadModel('http://tb.test.woza.work/model_tb_1/model.json');
+	$("#selected-image").attr("src", "http://tb.test.woza.work/assets/tb.jpg")
 	
 	
 	
