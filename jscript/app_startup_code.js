@@ -33,7 +33,7 @@ function predictOnLoad() {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('https://github.com/briankiprotich/briankiprotich.github.io/blob/main/model_tb_1/model.json');
+	model = await tf.loadModel('https://github.com/briankiprotich/briankiprotich.github.io/model_tb_1/model.json');
 	$("#selected-image").attr("src", "https://github.com/briankiprotich/briankiprotich.github.io/blob/main/assets/tb_image");
 	
 	// Hide the model loading spinner
