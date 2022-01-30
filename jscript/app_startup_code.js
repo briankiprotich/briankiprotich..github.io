@@ -34,7 +34,7 @@ let model;
 (async function () {
 	
 	model = await tf.loadModel('https://briankiprotich-github-io.pages.dev/model_tb_1/model.json');
-	$("#selected-image").attr("src", "https://briankiprotich-github-io.pages.dev/assets/tb_image");
+	$("#selected-image").attr("src", "https://briankiprotich-github-io.pages.dev/assets/tb_image.jpg");
 	
 	// Hide the model loading spinner
 	// This line of html gets hidden:
