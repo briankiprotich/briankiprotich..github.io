@@ -1,11 +1,7 @@
 Analyzer
 
 
-<br>
 
-<img src="http://tb.test.woza.work/assets/app_pic.png" width="350"></img>
-
-<br>
 
 This is a prototype for an online tool that can look at a chest x-ray and tell if a person has Tuberculosis (TB) or not. 
 
